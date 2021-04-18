@@ -20,7 +20,7 @@ class Tabelas {
                 console.log(erro);
             }
             else {
-                console.log('Tabela "Jedi Rank" criada com sucesso!');
+                console.log('Tabela "Jedi Rank" ok!');
             }
         });
     }
@@ -35,7 +35,7 @@ class Tabelas {
                 console.log(erro);
             }
             else {
-                console.log('Tabela "Sith Rank" criada com sucesso!');
+                console.log('Tabela "Sith Rank" ok!');
             }
         });
     }
@@ -52,7 +52,7 @@ class Tabelas {
                 console.log(erro);
             }
             else {
-                console.log('Tabela "LightSaber" criada com sucesso!');
+                console.log('Tabela "LightSaber" ok!');
             }
         });
     }
@@ -72,7 +72,7 @@ class Tabelas {
                 console.log(erro);
             }
             else {
-                console.log('Tabela "Jedi" criada com sucesso!');
+                console.log('Tabela "Jedi" ok!');
             }
         });
     }
@@ -92,7 +92,7 @@ class Tabelas {
                 console.log(erro);
             }
             else {
-                console.log('Tabela "Padawan" criada com sucesso!');
+                console.log('Tabela "Padawan" ok!');
             }
         });
     }
@@ -116,7 +116,7 @@ class Tabelas {
                 console.log(erro);
             }
             else {
-                console.log('Tabela "Sith" criada com sucesso!');
+                console.log('Tabela "Sith" ok!');
             }
         });
     }
