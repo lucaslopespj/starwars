@@ -169,27 +169,4 @@ module.exports = app => {
         console.log(id);
         Starwars.removePadawan(id, res);
     });
-
-/*
-
-
-    // Insere novo Jedi
-    app.post('/starwars/new_jedi', (req, res) => {
-        const jedi = req.body;
-        console.log(jedi);
-        Starwars.insertJedi(jedi, res);
-    });
-
-    // Atualiza um Jedi pelo seu ID
-    app.put('/starwars/jedi/:id/update', (req, res) => {
-        const id = parseInt(req.params.id);
-        console.log(req.params);
-        const valores = req.body;
-        console.log(valores);
-        Starwars.updateJedi(id, valores, res);
-    });
-
-
-
-*/
 }
