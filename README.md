@@ -7,19 +7,16 @@
 1) Instalar MySQL -> https://dev.mysql.com/downloads/
 2) Instalar NodeJS -> https://nodejs.dev/download
 3) Instalar Postman -> https://www.postman.com/downloads/
-4) No MySQL crie um banco de dados com o nome <strong>Starwars</strong> (S maiúsculo) e as tabelas <strong>'Jedi Rank'</strong> e <strong>'Sith Rank'</strong>:
+4) No MySQL crie um banco de dados com o nome <strong>Starwars</strong> (S maiúsculo):
    <br/><code>create database Starwars;</code>
    <br/><code>use Starwars;</code>
-   <br/><code>create table "Jedi Rank";</code> 
-   <br/><code>create table "Sith Rank";</code>
-   <br/>OBS: use <strong>`</strong> ao invés de <strong>"</strong> ou <strong>'</strong>
-5) No arquivo <strong>_run.sql_</strong> você encontra os comandos para criar algumas tabelas que <strong>não são criadas</strong> pelo sistema.
-   É imprescindível que você as tenha criado e inserido os registros para que o sistema funcione corretamente.
-6) Clonar este repositório _(git clone url)_ para uma pasta na sua máquina
-7) Abra um terminal na raíz do projeto e digite _npm install_ para instalar os módulos <strong>nodejs</strong> do projeto
-8) No arquivo _./starwars/infraestrutura/conexao.js_ altere os campos _"user"_ e _"password"_ para acessar o seu MySQL
-9) Para rodar o servidor digite _nodemon start_ no terminal no diretório do projeto
-10) Abra um navegador e digite "http://localhost:3000/starwars"
+   
+5) Clonar este repositório _(git clone url)_ para uma pasta na sua máquina
+6) Abra um terminal na raíz do projeto e digite _npm install_ para instalar os módulos <strong>nodejs</strong> do projeto
+7) No arquivo _./starwars/infraestrutura/conexao.js_ altere os campos _"user"_ e _"password"_ para acessar o seu MySQL
+8) Para rodar o servidor digite _nodemon start_ no terminal no diretório do projeto
+9) Abra um navegador e digite http://localhost:3000/starwars
+10) No MySQL rode os comandos do arquivo <strong>run.sql</strong>
 
 Se tudo tiver corrido bem o servidor e o banco de dados devem estar _online_ nesse ponto.
 Agora vamos importar o arquivo json do <strong>Postman</strong>:
