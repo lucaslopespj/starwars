@@ -16,7 +16,7 @@
 9) Para rodar o servidor digite _nodemon start_ no terminal no diretório do projeto
 10) Abra um navegador e digite "http://localhost:3000/starwars"
 
-Se tudo tiver corrido bem é para o servidor e o banco de dados estarem _online_ nesse ponto.
+Se tudo tiver corrido bem o servidor e o banco de dados devem estar _online_ nesse ponto.
 Agora vamos importar o arquivo json do <strong>Postman</strong>:
 
 11) Abra o Postman e vá em <strong>_File > Import..._</strong> ou apenas digite <strong> Ctrl + O</strong>
