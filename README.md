@@ -2,13 +2,15 @@
 <h2> Banco de Dados I - PCS3623
 <br/>Engenharia de Computação - POLI USP </h2>
 
-1) Instalar MySQL
-2) Instalar NodeJS
-3) Instalar Postman   
+<h5>API back-end rodando em NodeJS com banco de dados MySQL</h5>
+
+1) Instalar MySQL -> https://dev.mysql.com/downloads/
+2) Instalar NodeJS -> https://nodejs.dev/download
+3) Instalar Postman -> https://www.postman.com/downloads/
 4) No MySQL crie um banco de dados com o nome <strong>Starwars</strong> (S maiúsculo)
 5) Clonar este repositório _(git clone url)_ para uma pasta na sua máquina
 6) Abra um terminal na raíz do projeto e digite _npm install_ para instalar os módulos <strong>nodejs</strong> do projeto
-7) No arquivo _./starwars_bd/infraestrutura/conexao.js_ altere os campos _"user"_ e _"password"_ para acessar o seu MySQL
+7) No arquivo _./starwars/infraestrutura/conexao.js_ altere os campos _"user"_ e _"password"_ para acessar o seu MySQL
 8) Para rodar o servidor digite _nodemon start_ no terminal no diretório do projeto
 9) Abra um navegador e digite "http://localhost:3000/starwars"
 
