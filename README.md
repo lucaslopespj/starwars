@@ -17,6 +17,11 @@
 8) Para rodar o servidor digite _nodemon start_ no terminal no diretório do projeto
 9) Abra um navegador e digite http://localhost:3000/starwars
 10) No MySQL rode os comandos do arquivo <strong>run.sql</strong>
+<br/>Por exemplo você pode fazer:
+    <br/><code>
+            use Starwars;<br/>
+            source /path_to_project/starwars/run.sql;
+         </code>
 
 Se tudo tiver corrido bem o servidor e o banco de dados devem estar _online_ nesse ponto.
 Agora vamos importar o arquivo json do <strong>Postman</strong>:
