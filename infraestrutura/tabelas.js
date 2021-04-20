@@ -62,7 +62,9 @@ class Tabelas {
             '`Jedi ID` int unsigned not null auto_increment primary key,' +
             'Name varchar(45) null,' +
             '`Jedi Rank` varchar(45) null,' +
-            '`Light Saber` int unsigned null,' +
+            '`LightSaber` int unsigned null,' +
+            'constraint fk_jedi_ls foreign key(LightSaber) '+
+            'references LightSaber(ID),' +
             'constraint fk_jedi_rank foreign key(`Jedi Rank`) '+
             'references `Jedi Rank`(`Rank Name`) ' +
             'on delete no action on update no action);';
