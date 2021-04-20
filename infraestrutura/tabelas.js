@@ -64,7 +64,7 @@ class Tabelas {
             '`Jedi Rank` varchar(45) null,' +
             '`LightSaber` int unsigned null,' +
             'constraint fk_jedi_ls foreign key(LightSaber) '+
-            'references LightSaber(ID),' +
+            'references LightSaber(ID) on delete no action on update no action,' +
             'constraint fk_jedi_rank foreign key(`Jedi Rank`) '+
             'references `Jedi Rank`(`Rank Name`) ' +
             'on delete no action on update no action);';
@@ -86,8 +86,10 @@ class Tabelas {
             'Name varchar(45) null,' +
             'Master int unsigned not null,' +
             'LightSaber int unsigned not null,' +
-            'primary key(ID), constraint fk_padawan foreign key(Master)' +
-            'references Jedi(`Jedi ID`) on delete no action on update no action);';
+            'primary key(ID), constraint fk_padawan foreign key(Master) ' +
+            'references Jedi(`Jedi ID`) on delete no action on update no action, '+
+            'constraint fk_padawan_ls foreign key(LightSaber) '+
+            'references LightSaber(ID) on delete no action on update no action);';
 
         this.conexao.query(sql, erro => {
             if (erro) {
