@@ -4,9 +4,9 @@
 
 <h5>API back-end rodando em NodeJS com banco de dados MySQL</h5>
 
-1) Instalar MySQL -> https://dev.mysql.com/downloads/
+1) Instalar MySQL -> https://dev.mysql.com/downloads
 2) Instalar NodeJS -> https://nodejs.dev/download
-3) Instalar Postman -> https://www.postman.com/downloads/
+3) Instalar Postman -> https://www.postman.com/downloads
 4) No MySQL crie um banco de dados com o nome <strong>Starwars</strong> (S maiúsculo):
    <br/><code>create database Starwars;</code>
    <br/><code>use Starwars;</code>
@@ -26,6 +26,6 @@ Agora vamos importar o arquivo json do <strong>Postman</strong>:
 
 11) Abra o Postman e vá em <strong>_File > Import..._</strong> ou apenas digite <strong> Ctrl + O</strong>
 
-12) Navege até o diretório do projeto e selecione o arquivo <strong>"API Starwars.postman_collection.json"</strong>
+12) Navegue até o diretório do projeto e selecione o arquivo <strong>"API Starwars.postman_collection.json"</strong>
 
 Com isso você deve estar apto à fazer as requisições da nossa API.
